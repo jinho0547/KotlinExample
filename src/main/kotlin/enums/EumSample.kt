@@ -48,6 +48,7 @@ enum class HttpStatus2(val label: String, val code: Int) : CheckStatus{
 }
 interface CheckStatus {
     fun isServerError(): Boolean
+
 }
 
 

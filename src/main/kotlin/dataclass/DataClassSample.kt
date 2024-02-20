@@ -1,5 +1,9 @@
 package org.example.dataclass
 
+/*
+ *
+ */
+
 data class DataClass(val name:String, val age:Int)
 class NormalClass(val name:String, val age:Int)
 
