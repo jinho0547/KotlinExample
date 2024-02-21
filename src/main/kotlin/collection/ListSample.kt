@@ -1,4 +1,4 @@
-package org.example.list
+package org.example.collection
 /*
  * List 는 데이터를 모아 관리하는 Collection 클래스 중 가장 단순한 형태
  * 여러개의 데이터를 원하는 순서대로 넣어 관리하는 클래스

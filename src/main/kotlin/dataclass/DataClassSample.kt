@@ -1,7 +1,13 @@
 package org.example.dataclass
 
-/*
- *
+/* Data Class
+ * 데이터클래스는 데이터를 다루는 데에 최적화된 class로
+ *  '5가지 기능'을 내부적으로 자동으로 생성해준다.
+ * equals() - 내용의 동일성 확인
+ * hashcode() - 객체의 내용에서 고유한 코드를 생성
+ * toString() - 포함된 속성을 나열
+ * copy() - 객체를 복사하여 같은내용의 새 객체를 생성, 생성자와 같은 파라미터를 주어 일부 속성을 변경 할 수 있다.
+ * componentN() - 사용자가 직접 호출하기 위한 함수는 아니고, 배열등에 객체가 담겨있을 때 이 내용을 사용할수 있도록 지원하는 기능
  */
 
 data class DataClass(val name:String, val age:Int)
